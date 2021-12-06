@@ -4,8 +4,12 @@ public class Lecturer {
 	
 	
 	String name,surname;
-	double salary;
+	private double salary;
 	
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
 	public Lecturer(String name, String surname, double salary) {
 		super();
 		this.name = name;
