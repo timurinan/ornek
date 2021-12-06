@@ -8,6 +8,8 @@ public class Circle {
 	
 	public void calculateArea(double radius) {
 		
+		//Projemde ilk deðiþikliði burada yaptým...
+		
 		System.out.println("The area of the circle is:"+pi*radius*radius);
 		
 		//pi=3;
